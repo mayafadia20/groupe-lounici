@@ -32,8 +32,8 @@
           <a href="#contact" data-i18n="nav_contact">Contact</a>
         </nav>
         <div class="nav-right">
-          <!-- portail client : adresse à fournir -->
-          <a class="nav-portal" href="#portail" aria-label="Portail client" aria-haspopup="dialog" data-i18n-attr="aria-label=nav_portal">
+          <!-- portail client : ERP sur erp.lounici.ca -->
+          <a class="nav-portal" href="https://erp.lounici.ca/" aria-label="Portail client" data-i18n-attr="aria-label=nav_portal">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-3.6 3.6-6 8-6s8 2.4 8 6"/></svg>
             <span data-i18n="nav_portal">Portail client</span>
           </a>
@@ -72,7 +72,7 @@
             <a class="btn btn-black" href="#contact" data-i18n="hero_cta">Demander une consultation</a>
           </div>
         </div>
-        <a class="hero-card" href="#portail" aria-haspopup="dialog">
+        <a class="hero-card" href="https://erp.lounici.ca/">
           <span class="hero-card-tag small"><span data-i18n="card_tag">Nos outils</span><span>2026</span></span>
           <span class="hero-card-body">
             <span class="hero-card-title">Lens</span>
@@ -235,23 +235,6 @@
 
   </main>
 
-  <!-- Portail client : fenêtre de connexion ouverte par le lien « Client Portal » -->
-  <dialog class="login-modal" id="portail" aria-labelledby="portail-titre">
-    <button class="modal-close" type="button" aria-label="Fermer" data-i18n-attr="aria-label=close">×</button>
-    <h2 class="modal-title" id="portail-titre" data-i18n="modal_title">Bienvenue, connectez-vous<br>à votre compte.</h2>
-    <form class="login-form" novalidate>
-      <label class="field"><span class="small" data-i18n="m_user">Identifiant ou courriel</span><input type="text" name="identifiant" autocomplete="username" placeholder="nom@domaine.com" autofocus required data-i18n-attr="placeholder=m_user_ph"></label>
-      <label class="field"><span class="small" data-i18n="m_pass">Mot de passe</span><input type="password" name="mot-de-passe" autocomplete="current-password" placeholder="Votre mot de passe" required data-i18n-attr="placeholder=m_pass_ph"></label>
-      <div class="form-foot">
-        <button type="submit" class="btn btn-black" data-i18n="m_submit">Se connecter</button>
-        <a class="small lost" href="mailto:info@lounici.ca?subject=Portail%20client%20-%20mot%20de%20passe" data-i18n="m_lost">Mot de passe oublié ?</a>
-      </div>
-      <p class="login-msg small" hidden>Veuillez saisir votre identifiant et votre mot de passe.</p>
-    </form>
-  </dialog>
-
-  <script src="lens-config.js?v=1"></script>
-  <script src="lens-cloud.js?v=1"></script>
   <script src="script.js?v=18"></script>
 </body>
 </html>
