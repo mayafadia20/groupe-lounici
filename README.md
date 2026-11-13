@@ -1,6 +1,6 @@
-# Groupe L — Site web
+# Groupe Lounici — Site web
 
-Site vitrine de **Groupe L**, firme de consultation spécialisée en
+Site vitrine de **Groupe Lounici**, firme de consultation spécialisée en
 **création de valeur opérationnelle** (*Operation Value Creation*).
 
 ## Structure

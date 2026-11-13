@@ -1,4 +1,4 @@
-// Groupe L — interactions légères (aucune dépendance)
+// Groupe Lounici — interactions légères (aucune dépendance)
 
 (function () {
   // ── Langue : français par défaut, anglais au clic sur « EN ». Le choix est mémorisé (localStorage)
